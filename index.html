@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Password Generator</title>
+
+        
+
+        <link rel="stylesheet" href="index.css">
+        <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+    </head>
+    <body>
+
+        <div class="main-card">
+            <h1>Generate a <br><span id="second-line">random password</span></h1>
+            <p> Never use an insecure password again.</p>
+
+            <button type="button" id="btn" class="generate-btn">Generate passwords</button>
+            <div class="divider-line"></div>
+
+            <div class="input-icon" >
+                <div class="input-field-icon"> <input class="password-boxes"  id="password1" type="text" readonly placeholder="">
+                <ion-icon name="copy-outline" class = "copy-icon1"></ion-icon>
+            </div>
+            <div>
+                <input class="password-boxes" id="password2" type="text" readonly placeholder="">
+                <ion-icon name="copy-outline" class = "copy-icon2"></ion-icon></div>               
+            </div>
+
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
